@@ -11,7 +11,7 @@ f t1 t2 = ((snd t1, snd t2), (fst t1, fst t2))
 
 x = (+)
 
-lengthPlusOne :: [Char] -> Int
+lengthPlusOne :: [a] -> Int
 lengthPlusOne xs = w `x` 1
     where w = length xs
 
@@ -20,5 +20,3 @@ id' x = x
 
 fst' :: (a, b) -> a
 fst' (a, b) = a
-
-
