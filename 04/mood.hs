@@ -1,4 +1,4 @@
-module MoodModule where
+module Mood where
 
 data Mood = Blah | Woot deriving Show
 
